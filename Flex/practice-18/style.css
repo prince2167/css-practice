@@ -1,0 +1,29 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.container{
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    
+}
+.wrapper{
+    margin: 1rem;
+    flex-grow: 1;
+}
+h1{
+margin: 1rem 0rem;
+}
+p{
+    line-height: 1.4;
+    margin: 1rem 0rem;
+}
+
+footer{
+    padding: 3rem 0rem;
+    text-align: center;
+    background-color: rgb(110, 110, 227);
+}

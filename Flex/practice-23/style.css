@@ -1,0 +1,22 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.container{
+    display: flex;
+    align-items: center;
+}
+.profile-image{
+    width: 80px;
+    object-fit: cover;
+    border-radius: 50%;
+    flex-shrink: 0;
+}
+.profile-container{
+    margin: 5px;
+}
+p{
+    line-height: 1.4;
+    margin-top: 2px;
+    color: #555;
+}

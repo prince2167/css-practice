@@ -1,0 +1,23 @@
+.container{
+    background-color: #DDD6FE;
+    padding: 3rem;
+}
+.menu{
+    display: flex;
+    justify-content: space-between;
+    background-color: white;
+    border-radius: 2rem;
+    padding: 0.5rem;
+}
+.menu a{
+    text-decoration: none;
+    background-color:#EFF6FF;
+    padding: 0.6rem 1.5rem;
+    color: black;
+    border-radius: 1rem;
+    font-size: 1rem;
+}
+.menu a.active{
+background-color: blue;
+color: white;
+}

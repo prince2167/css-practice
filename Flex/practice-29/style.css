@@ -1,0 +1,32 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #6b7280;
+  font-family: "Roboto", sans-serif;
+  color: #6b7280;
+}
+
+.container {
+  display: flex;
+  align-items: center;
+  background-color: white;
+  margin: 5rem auto;
+  width: 20rem;
+  padding: 1rem;
+  border-radius: 0.5rem;
+}
+.text {
+  font-size: 1.1rem;
+}
+.count {
+  padding: 0.2rem 0.5rem;
+  background-color: #eff6ff;
+  color: #1e40af;
+  font-size: 1.1rem;
+  border-radius: 0.2rem;
+  margin-left: auto;
+}

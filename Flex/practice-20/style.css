@@ -1,0 +1,27 @@
+p {
+    text-align: center;
+    margin-top: 40px;
+  }
+  ul {
+    padding: 0;
+    list-style: none;
+    width: 700px;
+    margin: 30px auto;
+    background-color: white;
+    display: flex;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px; 
+    border: 5px; 
+  }
+  ul li {
+    padding: 20px;
+    text-align: center; 
+    transition: flex;
+    transition-duration: 0.2s;
+    flex-grow: 1;
+  }
+
+  ul li:hover {
+    cursor: pointer;
+    border-bottom: solid 3px #2DD4BF;
+    flex-grow: 3;
+  }

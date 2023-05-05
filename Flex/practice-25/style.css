@@ -1,0 +1,30 @@
+*{margin: 0;padding: 0;
+    box-sizing: border-box;
+}
+body{
+    color: #444;
+}
+.container{
+    display: flex;
+    align-items: center;
+    margin: 30px;
+    max-width: 30rem;
+    box-shadow: rgba(24, 24, 24, 0.2) 0px 7px 29px 0px;
+}
+h2{
+    font-size: 20px;
+}
+p{
+    margin-top: 1px;
+    line-height: 1.4;
+}
+.img-wrap {
+    margin-right: 1rem;
+    flex-basis: 5rem;
+    flex-shrink: 1;
+  }
+  
+.img-wrap img{
+    width: 100%;
+    border-radius: 5px;
+}

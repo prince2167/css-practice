@@ -1,0 +1,28 @@
+body {
+  background-color: rgb(170, 170, 235);
+  display: flex;
+  justify-content: center;
+}
+.card {
+  background-color: white;
+  max-width: 16rem;
+  padding: 2.5rem;
+  border-radius: 10px;
+}
+h1 {
+  color: #2563eb;
+}
+p {
+  line-height: 1.4;
+}
+.link {
+  display: flex;
+  justify-content: space-between;
+}
+.link a {
+  text-decoration: none;
+  background-color: rgb(170, 170, 235);
+  padding: 0.5rem 1rem;
+  font-size: 1rem;
+  border-radius: 4px;
+}

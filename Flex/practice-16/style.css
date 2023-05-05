@@ -1,0 +1,36 @@
+* {
+  font-family: sans-serif;
+  margin: 0;
+  padding: 0;
+}
+.wrapper {
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  margin: 10rem auto;
+  width: 600px;
+  box-shadow: 10px 10px 40px -17px rgb(36, 36, 36);
+}
+.container {
+  display: flex;
+  align-items: center;
+  padding: 15px;
+  margin: 10px;
+}
+.container:nth-child(even) {
+  flex-direction: row-reverse;
+  text-align: right;
+}
+img {
+  width: 150px;
+  height: 150px;
+  object-fit: cover;
+}
+.profile-description{
+  padding: 10px;
+}
+p{
+  padding-top: 15px;
+  line-height: 1.4;
+}

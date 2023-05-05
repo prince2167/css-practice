@@ -1,0 +1,47 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: sans-serif;
+  background-color: #fdf2f8;
+}
+.wrapper {
+  margin: 50px auto;
+  max-width: 720px;
+  max-height: 900px;
+}
+.container {
+  display: flex;
+}
+.plan {
+  background-color: white;
+  margin: 0px 15px;
+  padding: 30px;
+  border-radius: 10px;
+  flex:  1 1 0%;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+.plan span {
+  color: #444;
+}
+#plan-highlight {
+  color: white;
+  background-color: #db2777;
+}
+#plan-highlight span {
+  color: white;
+}
+h2 {
+  margin: 0;
+}
+span {
+  font-size: 15px;
+  opacity: 0.8;
+}
+p {
+  font-size: 30px;
+  font-weight: bold;
+  margin-top: 30px;
+}

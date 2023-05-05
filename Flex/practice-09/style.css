@@ -1,0 +1,21 @@
+.container{
+    text-align: center;
+    padding: 3rem;
+    color: #333;
+    background-color: #98c1eb;
+}
+h1{
+    margin: 0;
+    font-size: 1.5rem;
+}
+
+.logo{
+    margin-top: 1.5rem;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.logo img{
+     height: 3rem;
+     margin: 0rem 1rem 0rem ;
+}
