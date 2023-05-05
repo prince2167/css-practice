@@ -1,0 +1,36 @@
+.item {
+    padding: 3rem;
+    font-size: 2rem;
+    text-transform: uppercase;
+    letter-spacing: 0.1rem;
+    font-weight: bold;
+    background-size: cover;
+    background-position: center;
+  }
+  a{
+      text-decoration: none;
+      color: white;
+  }
+  .one {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
+      url("https://images.pexels.com/photos/271639/pexels-photo-271639.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=300");
+  }
+  .two {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
+      url("https://images.pexels.com/photos/38296/cycling-bicycle-riding-sport-38296.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=300");
+  }
+  .three {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
+      url("https://images.pexels.com/photos/1571463/pexels-photo-1571463.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=300");
+  }
+  .four {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
+      url("https://images.pexels.com/photos/3661391/pexels-photo-3661391.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=300");
+  }
+  
+  .container {
+    min-width: 600px;
+    min-height: 100vh;
+    display: grid;
+    grid-template-columns: 50% 50%;
+  }
