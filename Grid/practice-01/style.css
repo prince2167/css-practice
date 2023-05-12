@@ -28,7 +28,7 @@
       url("https://images.pexels.com/photos/3661391/pexels-photo-3661391.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=300");
   }
   
-  .container {
+  .wrapper {
     min-width: 600px;
     min-height: 100vh;
     display: grid;
