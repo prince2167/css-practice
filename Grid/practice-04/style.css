@@ -1,0 +1,30 @@
+body {
+  background-color: #e0f2fe;
+  color: #333;
+  font-size: 0.9rem;
+  line-height: 1.2;
+}
+.container {
+  width: 24rem;
+  margin: 4rem;
+  padding: 2rem;
+  background-color: white;
+  display: grid;
+  grid-template-columns: 1fr auto;
+}
+
+.icon {
+  font-size: 3rem;
+  padding-left: 1rem;
+}
+
+h3 {
+  margin: 0;
+}
+
+p {
+  margin: 5px 0 0;
+}
+.item {
+  padding: 0 0 1.4rem 0;
+}
